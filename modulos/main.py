@@ -76,9 +76,9 @@ class TorneoTenis:
 
 def registroproducto_manualmente(PanCamp):
     id_Playerd = int(input("Fecha de la venta: "))
-    nombre = input("nomre y direccion: ")
-    edad = int(input("Ingresa la edad del Playerd: "))
-    categoria = input("Ingresa la categoría (Novato/Intermedio/Avanzado): ")
+    nombre = input("informacion del cliente ")
+    edad = int(input("informacion del empleado que realizo la venta "))
+    categoria = input("Productos bendidos (Nombre/cantidad/precio): ")
     PanCamp.registroJugador(id_Playerd, nombre, edad, categoria)
 
 def main():
